@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
             flex: 3,
             child: Container(
               color: Colors.lightBlueAccent,
-              child: Bird(),
+              child: Center(child: Bird()),
             ),
           ),
           Expanded(
